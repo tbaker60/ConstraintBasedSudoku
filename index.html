@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+                                   initial-scale=1.0">
+    <title>Sudoku Puzzle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F5FCFF;
+        }
+ 
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+ 
+        .row {
+            display: flex;
+        }
+ 
+        .cell {
+            width: 30px;
+            height: 30px;
+            border: 1px solid black;
+            text-align: center;
+            line-height: 30px;
+            box-sizing: border-box;
+        }
+ 
+        .lightBackground {
+            background-color: #A9A9A9;
+        }
+ 
+        .darkBackground {
+            background-color: #EBF3E8;
+        }
+ 
+        .buttonContainer {
+            margin-top: 20px;
+            display: flex;
+            /* Ensure buttons are always displayed */
+            align-items: center;
+            justify-content: center;
+        }
+ 
+        .buttonContainer button {
+            margin-right: 10px;
+            /* Add margin between buttons */
+        }
+ 
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+ 
+        .correct {
+            color: green;
+        }
+ 
+        .incorrect {
+            color: red;
+        }
+    </style>
+</body>
