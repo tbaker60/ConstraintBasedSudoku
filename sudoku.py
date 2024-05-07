@@ -63,7 +63,7 @@ class Puzzle:
         elif row == 2: 
             return self.bottomLayer
         else:
-            return ("No index at location " + str(row)+', '+str(col))
+            return ("No index at location " + str(row))
         
     # Prints out a puzzle to a given file
     def print(self):
