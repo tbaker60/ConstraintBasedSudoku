@@ -35,7 +35,8 @@ def generateSudoku():
             else:
                 col = randint(0,2)
                 row = randint(0,2)
-            puzzle[numCt]"""
+            puzzle[numCt]
+    """
     
     puzzle.print()
 
@@ -63,7 +64,7 @@ class Puzzle:
         elif row == 2: 
             return self.bottomLayer
         else:
-            return ("No index at location " + str(row))
+           return ("No index at location " + str(row))
         
     # Prints out a puzzle to a given file
     def print(self):
